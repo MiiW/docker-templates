@@ -25,6 +25,6 @@ services:
         image: redis:alpine
         restart: always
         volumes:
-            - redis-data:/data
+            - rsshub-redis-data:/data
 volumes:
-    redis-data:
+    rsshub-redis-data: 
